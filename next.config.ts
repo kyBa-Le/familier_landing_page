@@ -5,9 +5,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production" ? "/landing_page" : "",
+  basePath: process.env.NODE_ENV === "production" ? "/familier_landing_page" : "",
 };
 
 export default nextConfig;
+
 
 
